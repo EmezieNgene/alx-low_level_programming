@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	int nums;
-	while (nums < 10)
+	int n;
+	while (n < 10)
 	{
-		printf("%d, nums");
-		nums += 1;
+		printf("%d", n);
+		n += 1;
 	}
 	printf("\n");
 	return (0);
