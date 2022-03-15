@@ -7,16 +7,18 @@
  */
 int main(void)
 {
-	int n;
+	int n =48;
+	int com = 44;
 
-	for (n = 48; n < 58; n++)
+	while (n <= 57)
 	{
 		putchar(n);
 		if (n != 57)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(com);
+			putchar(32);
 		}
+		n += 1;
 	}
 	putchar('\n')
 	return (0);
