@@ -5,14 +5,15 @@
  * You can only use putchar
  * Return: 0
  */
+
 int main(void)
 {
-	int n = 48;
-	while (n <= 57)
+	int n;
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
-		n += 1;
+	
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
