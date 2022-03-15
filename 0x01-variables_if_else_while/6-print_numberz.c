@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int n;
-	while (n < 10)
+	int n = 48;
+	while (n <= 57)
 	{
 		putchar(n);
 		n += 1;
